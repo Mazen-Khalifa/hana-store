@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+  integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/LOGO.png" class="rounded-5" alt="Bootstrap" width="30" height="30">
+        </a>
+        <a class="navbar-brand" href="#">HANA STORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file:///C:/Users/MAZEN/OneDrive%20-%20Egyptian%20E-Learning%20University/Desktop/online%20store/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">What`s new</a>
+                </li>
+                <a class="nav-link" href="file:///C:/Users/MAZEN/OneDrive%20-%20Egyptian%20E-Learning%20University/Desktop/online%20store/collections.html">Collections</a>
+                <a class="nav-link" href="file:///C:/Users/MAZEN/OneDrive%20-%20Egyptian%20E-Learning%20University/Desktop/online%20store/login.html">Login</a>
+                <a class="nav-link" href="file:///C:/Users/MAZEN/OneDrive%20-%20Egyptian%20E-Learning%20University/Desktop/online%20store/reveiw.html">Review</a>
+
+            </ul>
+            
+
+        </div>
+    </div>
+</nav>
+  
+  <form>
+    <h2>Hana store Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <input type="button" value="Login" onclick="validate()">
+  </form>
+  <div class="content">
+    <h1>Welcome to hana store</h1>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About Us</h2>
+        <p>We page provides you with ironing clothes in all sizes and details</p>
+      </div>
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="email" name="email" placeholder="Your email address">
+          <textarea name="message" placeholder="Your message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; My Website | Designed by Me
+    </div>
+  </footer>
+
+  <script src="js/all.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <!-- jquery -->
+     <script src = "js/jquery-3.6.0.js"></script>
+     <!-- isotope js -->
+     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+     <!-- bootstrap js -->
+     <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+     <!-- custom js -->
+     <script src = "js/script.js"></script>
+</body>
+</html>
